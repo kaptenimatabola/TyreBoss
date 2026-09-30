@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://kaptenimatabola.github.io/TyreBoss/sitemap.xml
+Sitemap: https://tyreboss-mafeteng.netlify.app/sitemap.xml
