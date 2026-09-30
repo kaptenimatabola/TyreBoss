@@ -17,24 +17,29 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TyreBoss Mafeteng">
 <meta name="twitter:description" content="Tyre repair support and second-hand tyres in Mafeteng, Lesotho.">
-<meta property="og:url" content="https://kaptenimatabola.github.io/TyreBoss/">
-<meta property="og:site_name" content="TyreBoss">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="TyreBoss Mafeteng">
-<meta name="twitter:description" content="Tyre repair support and second-hand tyres in Mafeteng, Lesotho.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css">
 <script type="application/ld+json">
 {
  "@context":"https://schema.org",
  "@type":"AutoRepair",
+ "@id":"https://kaptenimatabola.github.io/TyreBoss/#business",
  "name":"TyreBoss",
  "description":"Tyre repair support, second-hand tyres and practical tyre guidance in Mafeteng, Lesotho.",
  "email":"tyrebossmft@gmail.com",
  "telephone":"+26659652363",
  "url":"https://kaptenimatabola.github.io/TyreBoss/",
  "areaServed":{"@type":"City","name":"Mafeteng","containedInPlace":{"@type":"Country","name":"Lesotho"}},
- "sameAs":["https://wa.me/26659652363"]
+ "contactPoint":{"@type":"ContactPoint","contactType":"customer service","telephone":"+26659652363","email":"tyrebossmft@gmail.com"}
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"WebSite",
+ "name":"TyreBoss",
+ "url":"https://kaptenimatabola.github.io/TyreBoss/",
+ "publisher":{"@id":"https://kaptenimatabola.github.io/TyreBoss/#business"}
 }
 </script>
 <script type="application/ld+json">
@@ -48,12 +53,8 @@
  ]
 }
 </script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"AutoRepair","name":"TyreBoss","description":"Tyre repair support, second-hand tyres and practical tyre guidance in Mafeteng, Lesotho.","email":"tyrebossmft@gmail.com","telephone":"+26659652363","url":"https://kaptenimatabola.github.io/TyreBoss/","areaServed":{"@type":"City","name":"Mafeteng","containedInPlace":{"@type":"Country","name":"Lesotho"}},"sameAs":["https://wa.me/26659652363"]}</script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What should I send when asking for a used tyre?","acceptedAnswer":{"@type":"Answer","text":"Send the tyre size printed on the sidewall, for example 205/55 R16, plus your vehicle model if you know it."}},{"@type":"Question","name":"Can every damaged tyre be repaired?","acceptedAnswer":{"@type":"Answer","text":"No. Repair suitability depends on the damage, its location and the tyre's condition. Safety comes first."}},{"@type":"Question","name":"How do I contact TyreBoss?","acceptedAnswer":{"@type":"Answer","text":"Contact TyreBoss by WhatsApp at +266 5965 2363 or email tyrebossmft@gmail.com."}}]}</script>
 </head>
-<body>
+<body><a class="skip" href="#main-content">Skip to content</a>
 <header>
   <div class="wrap nav">
     <a class="brand" href="#top" aria-label="TyreBoss home"><b>TB</b><span>Tyre<span>Boss</span></span></a>
@@ -65,7 +66,7 @@
   </div>
 </header>
 
-<main id="top">
+<main id="top" tabindex="-1"><span id="main-content" class="anchor-target" aria-hidden="true"></span>
 <section class="hero">
   <div class="wrap grid">
     <div>
@@ -109,6 +110,17 @@
   </div>
 </section>
 
+<section class="section process">
+  <div class="wrap">
+    <div class="head"><div><div class="eyebrow">HOW IT WORKS</div><h2>A simpler tyre journey.</h2></div><p>Start with the information you already have. TyreBoss can then help you understand the next step.</p></div>
+    <div class="processgrid">
+      <article><b>01</b><h3>Tell us</h3><p>Send your tyre size, vehicle and what you need.</p></article>
+      <article><b>02</b><h3>Review options</h3><p>Discuss repair or available replacement options and pricing.</p></article>
+      <article><b>03</b><h3>Get moving</h3><p>Proceed with the option that fits your situation.</p></article>
+    </div>
+  </div>
+</section>
+
 <section id="why" class="section">
   <div class="wrap">
     <div class="head"><div><div class="eyebrow">THE TYREBOSS STANDARD</div><h2>Built for real drivers.</h2></div><p>A local tyre service should make the next step simple, understandable and focused on your actual vehicle needs.</p></div>
@@ -130,18 +142,19 @@
 <section id="contact" class="section contact">
   <div class="wrap contactgrid">
     <div><div class="eyebrow">CONTACT</div><h2>TyreBoss Mafeteng</h2><p class="lead">For tyre repairs, used tyre availability and general enquiries, contact the team directly.</p><small>WHATSAPP</small><a class="email" href="https://wa.me/26659652363" target="_blank" rel="noopener">+266 5965 2363</a><small>EMAIL</small><a class="email" href="mailto:tyrebossmft@gmail.com">tyrebossmft@gmail.com</a><small>SERVICE AREA</small><strong>Mafeteng, Lesotho</strong></div>
-    <form action="mailto:tyrebossmft@gmail.com" method="post" enctype="text/plain">
+    <form id="enquiry-form">
       <label>Your name<input name="Name" autocomplete="name" required></label>
       <label>Vehicle / tyre size<input name="Vehicle" autocomplete="off" placeholder="e.g. Toyota Corolla / 205/55 R16"></label>
       <label>What do you need?<select name="Service"><option>Tyre repair</option><option>Second-hand tyre</option><option>Tyre advice</option><option>Other</option></select></label>
       <label>Message<textarea name="Message" rows="4" placeholder="Tell us what happened or what you are looking for."></textarea></label>
-      <div class="form-actions"><button class="btn" type="submit">Send Email Enquiry</button><a class="btn whatsapp-btn" href="https://wa.me/26659652363?text=Hello%20TyreBoss%2C%20I%27m%20looking%20for%20tyre%20help." target="_blank" rel="noopener">WhatsApp Instead</a></div>
-      <small>WhatsApp is the fastest direct enquiry option. No account or sign-up is required on this website.</small>
+      <div class="form-actions"><button class="btn" type="submit">Build WhatsApp Enquiry</button><a class="btn whatsapp-btn" href="https://wa.me/26659652363?text=Hello%20TyreBoss%2C%20I%27m%20looking%20for%20tyre%20help." target="_blank" rel="noopener">WhatsApp Instead</a></div>
+      <small id="form-status">Your enquiry opens WhatsApp with the details you entered. You can review the message before sending.</small>
     </form>
   </div>
 </section>
 </main>
 
 <footer><div class="wrap footerin"><div><a class="brand"><b>TB</b><span>Tyre<span>Boss</span></span></a><p>Tyre repair & quality used tyres • Mafeteng, Lesotho</p></div><div class="footerlinks"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="https://wa.me/26659652363" target="_blank" rel="noopener">WhatsApp</a><a href="mailto:tyrebossmft@gmail.com">Email</a></div><p>© <span id="year"></span> TyreBoss</p></div></footer>
+<a class="mobile-wa" href="https://wa.me/26659652363?text=Hello%20TyreBoss%2C%20I%20need%20tyre%20help." target="_blank" rel="noopener" aria-label="Chat with TyreBoss on WhatsApp">WhatsApp TyreBoss</a>
 <script src="script.js"></script>
 </body></html>
