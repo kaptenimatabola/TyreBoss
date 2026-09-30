@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kaptenimatabola.github.io/TyreBoss/sitemap.xml
